@@ -4,6 +4,7 @@ Create a Python program for adding, completing, and removing tasks—a simple in
 class TodoList:
     def __init__(self):
         self.tasks = []
+        
 Here, a class named TodoList is defined. It represents a todo list. The __init__ method is a constructor method, which initializes a new instance of the TodoList class. It initializes an empty list self.tasks to store the tasks.
 
     def add_task(self, task):
